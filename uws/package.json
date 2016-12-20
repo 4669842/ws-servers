@@ -1,0 +1,13 @@
+{
+  "name": "now-examples-uws",
+  "version": "1.0.0",
+  "description": "Example deployment of a µWebSockets server to now",
+  "author": "Nathan Rajlich <nate@zeit.co>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "uws": "0.12.0"
+  }
+}
