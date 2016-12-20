@@ -4,8 +4,8 @@ ws-servers
 This repo demonstrates deployment of different WebSocket servers powered by
 Node.js and Now:
 
- * [uws][./uws]
- * [ws][./ws]
+ * [uws](./uws)
+ * [ws](./ws)
 
 wsbench
 =======
