@@ -26,6 +26,8 @@ user  0m0.531s
 sys 0m0.105s
 ```
 
+![wsbench results](https://cldup.com/Q0yNsLnH1V.png)
+
 ## License
 
 MIT
