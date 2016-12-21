@@ -3,7 +3,7 @@
 This repo demonstrates deployment of different WebSocket servers powered by
 Node.js and Now. To learn how to run and deploy each, follow one of these links:
 
- * **[uws](./uws)**
+ * **[µws](./uws)**
  * **[ws](./ws)**
  * **[websocket](./websocket)**
  * **[nodejs-websocket](./nodejs-websocket)**
