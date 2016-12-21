@@ -15,6 +15,7 @@ function tester() {
     let startTime, count
 
     const ws = new WebSocket(address)
+
     ws.onopen = function () {
       count = 0
       startTime = new Date()
@@ -38,10 +39,12 @@ function tester() {
 
 
 Promise.all(Array(parallel).fill(1).map(() => tester())).then((times) => {
+  const sorted = times.sort((a, b) => a - b)
   console.log('done!')
-  console.log('mean: %d', mean(times))
-  console.log('median: %d', median(times))
-  console.log('mode: %d', mode(times))
+  console.log('mean: %d', mean(sorted))
+  console.log('median: %d', median(sorted))
+  console.log('mode: %d', mode(sorted))
+  console.log('range: %d', range(sorted))
 })
 
 function mean (values) {
@@ -53,9 +56,23 @@ function mean (values) {
 }
 
 function median (values) {
-  return 0
+  return values[Math.ceil(values.length / 2)]
 }
 
 function mode (values) {
-  return 0
+  let maxValue, maxCount = 0
+  for (let value of new Set(values)) {
+    const count = values.filter((v) => v === value).length
+    if (count > maxCount) {
+      maxValue = value
+      maxCount = count
+    }
+  }
+  return maxValue
+}
+
+function range (values) {
+  const min = values[0]
+  const max = values[values.length - 1]
+  return max - min
 }
