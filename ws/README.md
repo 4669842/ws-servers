@@ -18,7 +18,7 @@ $ cd ws-servers/ws
 $ now
 ```
 
-> Example: [wss://now-examples-ws-nddexmvyok.now.sh](https://now-examples-ws-nddexmvyok.now.sh/_src/?f=server.js)
+> Example: `wss://now-examples-ws-nddexmvyok.now.sh`
 
 ## License
 
