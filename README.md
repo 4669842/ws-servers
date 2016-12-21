@@ -15,21 +15,7 @@ the servers.
 
 ![wsbench results](https://cldup.com/0SF9cl5eYZ.png)
 
-```bash
-$ time node wsbench.js wss://echo.websocket.org
-connecting to "wss://echo.websocket.org"
-100 round trips per client
-20 client connections
-done!
-mean:   8731.95
-median: 8683
-mode:   8671
-range:  626
-
-real  0m10.008s
-user  0m0.522s
-sys   0m0.101s
-```
+The results above were run against the WebSocket servers deployed on `now.sh` above.
 
 ## License
 
