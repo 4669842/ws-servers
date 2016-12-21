@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "now-examples-uws",
   "version": "1.0.0",
   "description": "Example deployment of a µWebSockets server to now",

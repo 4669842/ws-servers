@@ -1,5 +1,4 @@
-ws
----
+# ws
 
 This example shows deploying a [`ws`](https://github.com/websockets/ws) WebSocket
 server to Now.
