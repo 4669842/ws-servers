@@ -13,7 +13,7 @@ Node.js and Now:
 A simple `wsbench` program is also included to compare performance between
 the servers.
 
-![wsbench results](https://cldup.com/Q0yNsLnH1V.png)
+![wsbench results](https://cldup.com/0SF9cl5eYZ.png)
 
 ```bash
 $ time node wsbench.js wss://echo.websocket.org
