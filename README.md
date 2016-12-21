@@ -5,6 +5,8 @@ Node.js and Now:
 
  * **[uws](./uws)**
  * **[ws](./ws)**
+ * **[websocket](./websocket)**
+ * **[nodejs-websocket](./nodejs-websocket)**
 
 ## wsbench
 
