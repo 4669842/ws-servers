@@ -9,7 +9,9 @@ Node.js and Now:
 ## wsbench
 
 A simple `wsbench` program is also included to compare performance between
-the servers
+the servers.
+
+![wsbench results](https://cldup.com/Q0yNsLnH1V.png)
 
 ```bash
 $ time node wsbench.js wss://echo.websocket.org
@@ -25,8 +27,6 @@ real  0m10.115s
 user  0m0.531s
 sys 0m0.105s
 ```
-
-![wsbench results](https://cldup.com/Q0yNsLnH1V.png)
 
 ## License
 
