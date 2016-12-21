@@ -17,7 +17,3 @@ the servers.
 
 The results show the total elapsed time of 1000 roundtrips by 100 simultaneous
 clients against the WebSocket servers listed above, deployed on `now.sh`.
-
-## License
-
-MIT
