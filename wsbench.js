@@ -41,10 +41,10 @@ function tester() {
 Promise.all(Array(parallel).fill(1).map(() => tester())).then((times) => {
   const sorted = times.sort((a, b) => a - b)
   console.log('done!')
-  console.log('mean: %d', mean(sorted))
+  console.log('mean:   %d', mean(sorted))
   console.log('median: %d', median(sorted))
-  console.log('mode: %d', mode(sorted))
-  console.log('range: %d', range(sorted))
+  console.log('mode:   %d', mode(sorted))
+  console.log('range:  %d', range(sorted))
 })
 
 function mean (values) {
