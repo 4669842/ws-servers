@@ -1,7 +1,7 @@
 # ws-servers
 
 This repo demonstrates deployment of different WebSocket servers powered by
-Node.js and Now:
+Node.js and Now. To learn how to run and deploy each, follow one of these links:
 
  * **[uws](./uws)**
  * **[ws](./ws)**
@@ -15,7 +15,8 @@ the servers.
 
 ![wsbench results](https://cldup.com/0SF9cl5eYZ.png)
 
-The results above were run against the WebSocket servers deployed on `now.sh` above.
+The results show the total elapsed time of 1000 roundtrips by 100 simultaneous
+clients against the WebSocket servers listed above, deployed on `now.sh`.
 
 ## License
 
