@@ -9,11 +9,11 @@ server.listen(3000)
 
 var wsServer = new WebSocketServer({
   httpServer: server,
-  autoAcceptConnections: true
+  autoAcceptConnections: false
 })
 
 wsServer.on('request', function(request) {
-  var connection = request.accept('echo-protocol', request.origin)
+  var connection = request.accept()
   connection.on('message', function(message) {
     connection.sendUTF('pong')
   })
