@@ -9,7 +9,7 @@
     "start": "node server"
   },
   "dependencies": {
-    "uws": "0.12.0"
+    "uws": "0.14.5"
   },
   "now": {
     "alias": "now-examples-uws.now.sh"
