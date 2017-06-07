@@ -17,7 +17,7 @@ $ cd ws-servers/nodejs-websocket
 $ now
 ```
 
-> Example: `wss://now-examples-nodejs-websocket-aduqjokbyf.now.sh`
+> Example: `wss://now-examples-nodejs-websocket.now.sh`
 
 ## License
 

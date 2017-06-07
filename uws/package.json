@@ -10,5 +10,8 @@
   },
   "dependencies": {
     "uws": "0.12.0"
+  },
+  "now": {
+    "now-examples-uws.now.sh"
   }
 }

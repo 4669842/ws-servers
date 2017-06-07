@@ -18,7 +18,7 @@ $ cd ws-servers/uws
 $ now
 ```
 
-> Example: `wss://now-examples-uws-vcclfgrabp.now.sh`
+> Example: `wss://now-examples-uws.now.sh`
 
 ## License
 

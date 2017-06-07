@@ -10,5 +10,8 @@
   },
   "dependencies": {
     "websocket": "1.0.23"
+  },
+  "now": {
+    "now-examples-websocket.now.sh"
   }
 }

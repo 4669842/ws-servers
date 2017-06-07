@@ -10,5 +10,8 @@
   },
   "dependencies": {
     "ws": "1.1.1"
+  },
+  "now": {
+    "now-examples-ws.now.sh"
   }
 }
