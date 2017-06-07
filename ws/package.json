@@ -12,6 +12,6 @@
     "ws": "1.1.1"
   },
   "now": {
-    "now-examples-ws.now.sh"
+    "alias": "now-examples-ws.now.sh"
   }
 }

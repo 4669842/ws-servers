@@ -12,6 +12,6 @@
     "nodejs-websocket": "1.7.1"
   },
   "now": {
-    "now-examples-nodejs-websocket.now.sh"
+    "alias": "now-examples-nodejs-websocket.now.sh"
   }
 }

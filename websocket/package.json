@@ -12,6 +12,6 @@
     "websocket": "1.0.23"
   },
   "now": {
-    "now-examples-websocket.now.sh"
+    "alias": "now-examples-websocket.now.sh"
   }
 }
